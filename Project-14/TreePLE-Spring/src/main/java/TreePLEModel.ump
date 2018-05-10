@@ -1,0 +1,67 @@
+namespace ca.mcgill.ecse321.treePLE.model;
+
+class Tree {
+  String species;
+  Float height;
+  Integer age;
+  Date date;
+  Float diameter;
+  Integer id;
+  
+  * tree -- 1 Person person;
+  1 <@>- * Survey;
+}
+
+class Person{
+  String name;
+  String email;
+  String password;
+}
+
+class TreePLEManager{
+ 1 treePLEManager <@>- * Tree;
+ 1 treePLEManager -- * Person person;
+}
+
+
+class Survey{
+  Date date;
+  Integer id;
+  * -> 1 Person observer;
+}
+
+class Forecast{
+    * forecast -- 1 TreePLEManager treePLEManager;
+}
+
+class Location{
+  Float longitude;
+  Float latitude;
+  1 location -- * Tree tree;
+  String municipality;
+  
+}
+
+class Biodiversity{
+  double biodiversityIndex;
+  *--* Forecast forecast;
+}
+
+class Canopy{
+  double canopyIndex;
+  *--* Forecast forecast;
+}
+
+class CarbonSequestrationManager {
+  *--* CarbonSequestration carbonSequestration;
+   1 CarbonSequestrationManager <@>- *SpeciesDensities;
+}
+class CarbonSequestration{
+  double carbonSequestrationIndex;
+  *--* Forecast forecast;
+}
+
+class SpeciesDensities {
+  String species;
+  Integer density;
+}

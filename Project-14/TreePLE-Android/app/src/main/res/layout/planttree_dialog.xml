@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/plantimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:background="#228B22"
+            android:contentDescription="@string/app_name"
+            android:scaleType="center"
+            android:src="@drawable/planttree" />
+
+        <EditText
+            android:id="@+id/ownername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/ownername"
+            android:layout_below="@id/plantimage"
+            android:inputType="text" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ownername"
+            android:id="@+id/speciesSpinner"/>
+
+        <EditText
+            android:id="@+id/treeheight"
+            android:layout_below="@+id/speciesSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:hint="@string/treeheight"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/treediameter"
+            android:layout_below="@+id/treeheight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:hint="@string/treediameter"
+            android:inputType="number" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

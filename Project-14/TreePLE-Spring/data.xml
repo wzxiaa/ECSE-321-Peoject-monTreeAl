@@ -1,0 +1,551 @@
+<manager id="1">
+  <trees id="2">
+    <tree id="33">
+      <species>white oak</species>
+      <height>11.0</height>
+      <age>100</age>
+      <date id="34">2018-02-21</date>
+      <diameter>55.0</diameter>
+      <id>14475954</id>
+      <person id="35">
+        <name>Benoit</name>
+        <tree id="36">
+          <tree reference="33"/>
+        </tree>
+        <treePLEManager id="37">
+          <trees id="38"/>
+          <person id="39">
+            <person reference="35"/>
+          </person>
+          <forecast id="40"/>
+        </treePLEManager>
+      </person>
+      <surveys id="41"/>
+      <treePLEManager reference="1"/>
+      <location id="42">
+        <longitude>251.0</longitude>
+        <latitude>343.0</latitude>
+        <municipality>NDG</municipality>
+        <tree id="43">
+          <tree reference="33"/>
+        </tree>
+      </location>
+    </tree>
+    <tree id="63">
+      <species>Red maple</species>
+      <height>0.0</height>
+      <age>0</age>
+      <date id="64">2012-12-12</date>
+      <diameter>0.0</diameter>
+      <id>84318655</id>
+      <person id="65">
+        <name>Carlitta</name>
+        <tree id="66">
+          <tree reference="63"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="67"/>
+      <treePLEManager reference="1"/>
+      <location id="68">
+        <longitude>999.9</longitude>
+        <latitude>8.734568E7</latitude>
+        <municipality>CoolTown</municipality>
+        <tree id="69">
+          <tree reference="63"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="70">
+      <species>black walnut</species>
+      <height>0.0</height>
+      <age>0</age>
+      <date id="71">2012-12-12</date>
+      <diameter>0.0</diameter>
+      <id>45941181</id>
+      <person id="72">
+        <name></name>
+        <tree id="73">
+          <tree reference="70"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="74">
+        <ca.mcgill.ecse321.treePLE.model.Survey id="75">
+          <date id="76">2018-02-02</date>
+          <id>6906360</id>
+          <observer id="77">
+            <name>Carlito</name>
+            <tree id="78"/>
+            <treePLEManager reference="1"/>
+          </observer>
+          <tree reference="70"/>
+        </ca.mcgill.ecse321.treePLE.model.Survey>
+      </surveys>
+      <treePLEManager reference="1"/>
+      <location id="79">
+        <longitude>999.9</longitude>
+        <latitude>8.734568E7</latitude>
+        <municipality>CoolTown</municipality>
+        <tree id="80">
+          <tree reference="70"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="81">
+      <species>butternut</species>
+      <height>10.0</height>
+      <age>1</age>
+      <date id="82">2015-09-21</date>
+      <diameter>3.0</diameter>
+      <id>92684885</id>
+      <person id="83">
+        <name>Sue</name>
+        <tree id="84">
+          <tree reference="81"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="85"/>
+      <treePLEManager reference="1"/>
+      <location id="86">
+        <longitude>6.4372988E7</longitude>
+        <latitude>2.0</latitude>
+        <municipality>NDG</municipality>
+        <tree id="87">
+          <tree reference="81"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="111">
+      <species>white oak</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="112">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>46395115</id>
+      <person id="113">
+        <name>Bob</name>
+        <tree id="114">
+          <tree reference="111"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="115"/>
+      <treePLEManager reference="1"/>
+      <location id="116">
+        <longitude>1.23</longitude>
+        <latitude>4.56</latitude>
+        <municipality>NDG</municipality>
+        <tree id="117">
+          <tree reference="111"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="118">
+      <species>red maple</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="119">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>39738828</id>
+      <person id="120">
+        <name>Bob</name>
+        <tree id="121">
+          <tree reference="118"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="122"/>
+      <treePLEManager reference="1"/>
+      <location id="123">
+        <longitude>1.23</longitude>
+        <latitude>4.56</latitude>
+        <municipality>NDG</municipality>
+        <tree id="124">
+          <tree reference="118"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="125">
+      <species>red oak</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="126">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>91678430</id>
+      <person id="127">
+        <name>Bob</name>
+        <tree id="128">
+          <tree reference="125"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="129"/>
+      <treePLEManager reference="1"/>
+      <location id="130">
+        <longitude>1.23</longitude>
+        <latitude>4.56</latitude>
+        <municipality>NDG</municipality>
+        <tree id="131">
+          <tree reference="125"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="132">
+      <species>willow</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="133">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>80687063</id>
+      <person id="134">
+        <name>Bob</name>
+        <tree id="135">
+          <tree reference="132"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="136"/>
+      <treePLEManager reference="1"/>
+      <location id="137">
+        <longitude>1.23</longitude>
+        <latitude>4.56</latitude>
+        <municipality>NDG</municipality>
+        <tree id="138">
+          <tree reference="132"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="139">
+      <species>willow</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="140">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>16001195</id>
+      <person id="141">
+        <name>Bob</name>
+        <tree id="142">
+          <tree reference="139"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="143"/>
+      <treePLEManager reference="1"/>
+      <location id="144">
+        <longitude>43.5</longitude>
+        <latitude>-83.2</latitude>
+        <municipality>NDG</municipality>
+        <tree id="145">
+          <tree reference="139"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="146">
+      <species>pine</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="147">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>64909835</id>
+      <person id="148">
+        <name>Bob</name>
+        <tree id="149">
+          <tree reference="146"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="150"/>
+      <treePLEManager reference="1"/>
+      <location id="151">
+        <longitude>43.5</longitude>
+        <latitude>-83.2</latitude>
+        <municipality>NDG</municipality>
+        <tree id="152">
+          <tree reference="146"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="153">
+      <species>white pine</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="154">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>78514972</id>
+      <person id="155">
+        <name>Bob</name>
+        <tree id="156">
+          <tree reference="153"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="157"/>
+      <treePLEManager reference="1"/>
+      <location id="158">
+        <longitude>43.0</longitude>
+        <latitude>83.0</latitude>
+        <municipality>NDG</municipality>
+        <tree id="159">
+          <tree reference="153"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="160">
+      <species>red pine</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="161">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>47742327</id>
+      <person id="162">
+        <name>Bob</name>
+        <tree id="163">
+          <tree reference="160"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="164"/>
+      <treePLEManager reference="1"/>
+      <location id="165">
+        <longitude>43.0</longitude>
+        <latitude>83.0</latitude>
+        <municipality>NDG</municipality>
+        <tree id="166">
+          <tree reference="160"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="167">
+      <species>green pine</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="168">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>24647666</id>
+      <person id="169">
+        <name>Bob</name>
+        <tree id="170">
+          <tree reference="167"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="171"/>
+      <treePLEManager reference="1"/>
+      <location id="172">
+        <longitude>43.0</longitude>
+        <latitude>83.0</latitude>
+        <municipality>NDG</municipality>
+        <tree id="173">
+          <tree reference="167"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="174">
+      <species>green pine</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="175">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>79300330</id>
+      <person id="176">
+        <name>herman</name>
+        <tree id="177">
+          <tree reference="174"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="178"/>
+      <treePLEManager reference="1"/>
+      <location id="179">
+        <longitude>43.0</longitude>
+        <latitude>83.0</latitude>
+        <municipality>herman</municipality>
+        <tree id="180">
+          <tree reference="174"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="181">
+      <species>green pine</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="182">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>48784139</id>
+      <person id="183">
+        <name>herman</name>
+        <tree id="184">
+          <tree reference="181"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="185"/>
+      <treePLEManager reference="1"/>
+      <location id="186">
+        <longitude>43.0</longitude>
+        <latitude>83.0</latitude>
+        <municipality>herman</municipality>
+        <tree id="187">
+          <tree reference="181"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="188">
+      <species>maple</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="189">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>41977076</id>
+      <person id="190">
+        <name>herman</name>
+        <tree id="191">
+          <tree reference="188"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="192"/>
+      <treePLEManager reference="1"/>
+      <location id="193">
+        <longitude>43.0</longitude>
+        <latitude>83.0</latitude>
+        <municipality>herman</municipality>
+        <tree id="194">
+          <tree reference="188"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="195">
+      <species>white oak</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="196">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>25268590</id>
+      <person id="197">
+        <name>herman</name>
+        <tree id="198">
+          <tree reference="195"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="199"/>
+      <treePLEManager reference="1"/>
+      <location id="200">
+        <longitude>43.0</longitude>
+        <latitude>83.0</latitude>
+        <municipality>herman</municipality>
+        <tree id="201">
+          <tree reference="195"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="230">
+      <species>bamboo</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="231">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>88479723</id>
+      <person id="232">
+        <name>Bob</name>
+        <tree id="233">
+          <tree reference="230"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="234"/>
+      <treePLEManager reference="1"/>
+      <location id="235">
+        <longitude>1.23</longitude>
+        <latitude>4.56</latitude>
+        <municipality>NDG</municipality>
+        <tree id="236">
+          <tree reference="230"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+    <tree id="237">
+      <species>cactus</species>
+      <height>1.0</height>
+      <age>1</age>
+      <date id="238">2018-02-02</date>
+      <diameter>1.0</diameter>
+      <id>70505955</id>
+      <person id="239">
+        <name>Bob</name>
+        <tree id="240">
+          <tree reference="237"/>
+        </tree>
+        <treePLEManager reference="1"/>
+      </person>
+      <surveys id="241"/>
+      <treePLEManager reference="1"/>
+      <location id="242">
+        <longitude>122.23</longitude>
+        <latitude>43.56</latitude>
+        <municipality>NDG</municipality>
+        <tree id="243">
+          <tree reference="237"/>
+        </tree>
+      </location>
+      <status>Healthy</status>
+    </tree>
+  </trees>
+  <person id="244">
+    <person reference="46"/>
+    <person reference="65"/>
+    <person reference="72"/>
+    <person reference="83"/>
+    <person reference="90"/>
+    <person reference="113"/>
+    <person reference="95"/>
+    <person reference="99"/>
+    <person reference="103"/>
+    <person reference="107"/>
+    <person reference="14"/>
+    <person reference="18"/>
+    <person reference="51"/>
+    <person reference="55"/>
+    <person reference="59"/>
+    <person reference="77"/>
+    <person reference="120"/>
+    <person reference="127"/>
+    <person reference="134"/>
+    <person reference="141"/>
+    <person reference="148"/>
+    <person reference="155"/>
+    <person reference="162"/>
+    <person reference="169"/>
+    <person reference="176"/>
+    <person reference="183"/>
+    <person reference="190"/>
+    <person reference="197"/>
+    <person reference="204"/>
+    <person reference="211"/>
+    <person reference="218"/>
+    <person reference="225"/>
+    <person reference="232"/>
+    <person reference="239"/>
+  </person>
+  <forecast id="245"/>
+</manager>

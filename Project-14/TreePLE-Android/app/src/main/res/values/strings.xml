@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TreePLE</string>
+    <string name="action_settings">Settings</string>
+    <string name="PlantTree">Plant Tree</string>
+    <string name="CutTree">Cut Tree</string>
+    <string name="ListTrees">List Trees</string>
+
+
+    <string name="treespecies">Tree Species</string>
+    <string name="treemunicipality">Tree Municipality</string>
+    <string name="treelongitude">Tree Longitude</string>
+    <string name="treelatitude">Tree Latitude</string>
+    <string name="plant"> Plant!</string>
+    <string name="cancel"> Cancel</string>
+    <string name="ownername">Owner Name</string>
+    <string name="treeid">Enter Tree ID</string>
+    <string name="cut">Request Cut!</string>
+    <string name="Map">Map</string>
+    <string name="refresh">Refresh</string>
+    <string name="treeheight">Tree Height (cm)</string>
+    <string name="treediameter">Tree Diameter (cm)</string>
+    <string name="cutdown">Cut!</string>
+    <string name="areyousure">Are you sure you want to cut tree?</string>
+
+
+</resources>
+

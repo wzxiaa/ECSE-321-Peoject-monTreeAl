@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ca.mcgill.ecse321.TreePLESystem.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/treepleimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="53dp"
+            android:background="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/treepletext"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/treepleimage"
+            android:gravity="center"
+            android:text="monTREEal"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/mapBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/treepletext"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/button_template"
+            android:onClick="onMap"
+            android:text="@string/Map" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
